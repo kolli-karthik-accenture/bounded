@@ -1,0 +1,1133 @@
+{
+  "pullRequest": {
+    "owner": "torvalds",
+    "repo": "uemacs",
+    "number": 55
+  },
+  "fileReviews": [
+    {
+      "file": "LICENSE",
+      "codeQuality": {
+        "file": "LICENSE",
+        "issues": [],
+        "overallScore": 64,
+        "summary": "Analyzed LICENSE: 2 issues found"
+      },
+      "testCoverage": {
+        "file": "LICENSE",
+        "hasTests": true,
+        "testFiles": [],
+        "untestedPaths": [],
+        "coverageEstimate": 63,
+        "summary": "Test coverage: ~71%"
+      },
+      "refactorings": {
+        "file": "LICENSE",
+        "suggestions": [],
+        "summary": "2 refactoring opportunities"
+      }
+    },
+    {
+      "file": "Makefile",
+      "codeQuality": {
+        "file": "Makefile",
+        "issues": [
+          {
+            "line": 10,
+            "severity": "high",
+            "category": "style",
+            "description": "Potential issue in Makefile",
+            "suggestion": "Consider reviewing this section"
+          },
+          {
+            "line": 23,
+            "severity": "high",
+            "category": "security",
+            "description": "Potential issue in Makefile",
+            "suggestion": "Consider reviewing this section"
+          }
+        ],
+        "overallScore": 80,
+        "summary": "Analyzed Makefile: 2 issues found"
+      },
+      "testCoverage": {
+        "file": "Makefile",
+        "hasTests": false,
+        "testFiles": [],
+        "untestedPaths": [],
+        "coverageEstimate": 54,
+        "summary": "Test coverage: ~89%"
+      },
+      "refactorings": {
+        "file": "Makefile",
+        "suggestions": [],
+        "summary": "2 refactoring opportunities"
+      }
+    },
+    {
+      "file": "README.md",
+      "codeQuality": {
+        "file": "README.md",
+        "issues": [
+          {
+            "line": 39,
+            "severity": "low",
+            "category": "performance",
+            "description": "Potential issue in README.md",
+            "suggestion": "Consider reviewing this section"
+          }
+        ],
+        "overallScore": 77,
+        "summary": "Analyzed README.md: 0 issues found"
+      },
+      "testCoverage": {
+        "file": "README.md",
+        "hasTests": false,
+        "testFiles": [],
+        "untestedPaths": [
+          {
+            "type": "function",
+            "location": "main handler",
+            "priority": "high",
+            "reasoning": "Critical business logic",
+            "suggestedTest": "Test main use case"
+          }
+        ],
+        "coverageEstimate": 86,
+        "summary": "Test coverage: ~81%"
+      },
+      "refactorings": {
+        "file": "README.md",
+        "suggestions": [],
+        "summary": "0 refactoring opportunities"
+      }
+    },
+    {
+      "file": "UTF-8-demo.txt",
+      "codeQuality": {
+        "file": "UTF-8-demo.txt",
+        "issues": [
+          {
+            "line": 59,
+            "severity": "medium",
+            "category": "performance",
+            "description": "Potential issue in UTF-8-demo.txt",
+            "suggestion": "Consider reviewing this section"
+          },
+          {
+            "line": 41,
+            "severity": "high",
+            "category": "maintainability",
+            "description": "Potential issue in UTF-8-demo.txt",
+            "suggestion": "Consider reviewing this section"
+          }
+        ],
+        "overallScore": 70,
+        "summary": "Analyzed UTF-8-demo.txt: 0 issues found"
+      },
+      "testCoverage": {
+        "file": "UTF-8-demo.txt",
+        "hasTests": false,
+        "testFiles": [],
+        "untestedPaths": [
+          {
+            "type": "function",
+            "location": "main handler",
+            "priority": "high",
+            "reasoning": "Critical business logic",
+            "suggestedTest": "Test main use case"
+          }
+        ],
+        "coverageEstimate": 59,
+        "summary": "Test coverage: ~78%"
+      },
+      "refactorings": {
+        "file": "UTF-8-demo.txt",
+        "suggestions": [],
+        "summary": "2 refactoring opportunities"
+      }
+    },
+    {
+      "file": "ansi.c",
+      "codeQuality": {
+        "file": "ansi.c",
+        "issues": [
+          {
+            "line": 85,
+            "severity": "critical",
+            "category": "security",
+            "description": "Potential issue in ansi.c",
+            "suggestion": "Consider reviewing this section"
+          },
+          {
+            "line": 12,
+            "severity": "low",
+            "category": "style",
+            "description": "Potential issue in ansi.c",
+            "suggestion": "Consider reviewing this section"
+          }
+        ],
+        "overallScore": 85,
+        "summary": "Analyzed ansi.c: 0 issues found"
+      },
+      "testCoverage": {
+        "file": "ansi.c",
+        "hasTests": true,
+        "testFiles": [],
+        "untestedPaths": [],
+        "coverageEstimate": 79,
+        "summary": "Test coverage: ~73%"
+      },
+      "refactorings": {
+        "file": "ansi.c",
+        "suggestions": [],
+        "summary": "1 refactoring opportunities"
+      }
+    },
+    {
+      "file": "basic.c",
+      "codeQuality": {
+        "file": "basic.c",
+        "issues": [],
+        "overallScore": 98,
+        "summary": "Analyzed basic.c: 1 issues found"
+      },
+      "testCoverage": {
+        "file": "basic.c",
+        "hasTests": true,
+        "testFiles": [],
+        "untestedPaths": [],
+        "coverageEstimate": 81,
+        "summary": "Test coverage: ~55%"
+      },
+      "refactorings": {
+        "file": "basic.c",
+        "suggestions": [],
+        "summary": "1 refactoring opportunities"
+      }
+    },
+    {
+      "file": "bind.c",
+      "codeQuality": {
+        "file": "bind.c",
+        "issues": [
+          {
+            "line": 46,
+            "severity": "low",
+            "category": "performance",
+            "description": "Potential issue in bind.c",
+            "suggestion": "Consider reviewing this section"
+          },
+          {
+            "line": 50,
+            "severity": "low",
+            "category": "performance",
+            "description": "Potential issue in bind.c",
+            "suggestion": "Consider reviewing this section"
+          }
+        ],
+        "overallScore": 74,
+        "summary": "Analyzed bind.c: 0 issues found"
+      },
+      "testCoverage": {
+        "file": "bind.c",
+        "hasTests": false,
+        "testFiles": [],
+        "untestedPaths": [],
+        "coverageEstimate": 85,
+        "summary": "Test coverage: ~68%"
+      },
+      "refactorings": {
+        "file": "bind.c",
+        "suggestions": [],
+        "summary": "1 refactoring opportunities"
+      }
+    },
+    {
+      "file": "buffer.c",
+      "codeQuality": {
+        "file": "buffer.c",
+        "issues": [],
+        "overallScore": 75,
+        "summary": "Analyzed buffer.c: 2 issues found"
+      },
+      "testCoverage": {
+        "file": "buffer.c",
+        "hasTests": true,
+        "testFiles": [],
+        "untestedPaths": [],
+        "coverageEstimate": 54,
+        "summary": "Test coverage: ~57%"
+      },
+      "refactorings": {
+        "file": "buffer.c",
+        "suggestions": [],
+        "summary": "1 refactoring opportunities"
+      }
+    },
+    {
+      "file": "crypt.c",
+      "codeQuality": {
+        "file": "crypt.c",
+        "issues": [
+          {
+            "line": 20,
+            "severity": "medium",
+            "category": "maintainability",
+            "description": "Potential issue in crypt.c",
+            "suggestion": "Consider reviewing this section"
+          }
+        ],
+        "overallScore": 91,
+        "summary": "Analyzed crypt.c: 2 issues found"
+      },
+      "testCoverage": {
+        "file": "crypt.c",
+        "hasTests": false,
+        "testFiles": [],
+        "untestedPaths": [
+          {
+            "type": "function",
+            "location": "main handler",
+            "priority": "high",
+            "reasoning": "Critical business logic",
+            "suggestedTest": "Test main use case"
+          }
+        ],
+        "coverageEstimate": 69,
+        "summary": "Test coverage: ~88%"
+      },
+      "refactorings": {
+        "file": "crypt.c",
+        "suggestions": [],
+        "summary": "2 refactoring opportunities"
+      }
+    },
+    {
+      "file": "display.c",
+      "codeQuality": {
+        "file": "display.c",
+        "issues": [
+          {
+            "line": 99,
+            "severity": "high",
+            "category": "performance",
+            "description": "Potential issue in display.c",
+            "suggestion": "Consider reviewing this section"
+          },
+          {
+            "line": 14,
+            "severity": "medium",
+            "category": "style",
+            "description": "Potential issue in display.c",
+            "suggestion": "Consider reviewing this section"
+          }
+        ],
+        "overallScore": 91,
+        "summary": "Analyzed display.c: 1 issues found"
+      },
+      "testCoverage": {
+        "file": "display.c",
+        "hasTests": true,
+        "testFiles": [],
+        "untestedPaths": [],
+        "coverageEstimate": 53,
+        "summary": "Test coverage: ~82%"
+      },
+      "refactorings": {
+        "file": "display.c",
+        "suggestions": [
+          {
+            "type": "extract-function",
+            "location": "line 42",
+            "impact": "medium",
+            "description": "Extract complex logic into helper",
+            "before": "complex code here",
+            "after": "helper() // cleaner",
+            "benefits": "Improves readability"
+          }
+        ],
+        "summary": "0 refactoring opportunities"
+      }
+    },
+    {
+      "file": "ebind.h",
+      "codeQuality": {
+        "file": "ebind.h",
+        "issues": [],
+        "overallScore": 63,
+        "summary": "Analyzed ebind.h: 2 issues found"
+      },
+      "testCoverage": {
+        "file": "ebind.h",
+        "hasTests": false,
+        "testFiles": [],
+        "untestedPaths": [],
+        "coverageEstimate": 78,
+        "summary": "Test coverage: ~87%"
+      },
+      "refactorings": {
+        "file": "ebind.h",
+        "suggestions": [],
+        "summary": "1 refactoring opportunities"
+      }
+    },
+    {
+      "file": "edef.h",
+      "codeQuality": {
+        "file": "edef.h",
+        "issues": [
+          {
+            "line": 42,
+            "severity": "critical",
+            "category": "style",
+            "description": "Potential issue in edef.h",
+            "suggestion": "Consider reviewing this section"
+          }
+        ],
+        "overallScore": 78,
+        "summary": "Analyzed edef.h: 2 issues found"
+      },
+      "testCoverage": {
+        "file": "edef.h",
+        "hasTests": false,
+        "testFiles": [],
+        "untestedPaths": [],
+        "coverageEstimate": 57,
+        "summary": "Test coverage: ~83%"
+      },
+      "refactorings": {
+        "file": "edef.h",
+        "suggestions": [],
+        "summary": "2 refactoring opportunities"
+      }
+    },
+    {
+      "file": "efunc.h",
+      "codeQuality": {
+        "file": "efunc.h",
+        "issues": [
+          {
+            "line": 48,
+            "severity": "critical",
+            "category": "style",
+            "description": "Potential issue in efunc.h",
+            "suggestion": "Consider reviewing this section"
+          }
+        ],
+        "overallScore": 65,
+        "summary": "Analyzed efunc.h: 0 issues found"
+      },
+      "testCoverage": {
+        "file": "efunc.h",
+        "hasTests": true,
+        "testFiles": [],
+        "untestedPaths": [],
+        "coverageEstimate": 79,
+        "summary": "Test coverage: ~69%"
+      },
+      "refactorings": {
+        "file": "efunc.h",
+        "suggestions": [
+          {
+            "type": "extract-function",
+            "location": "line 42",
+            "impact": "medium",
+            "description": "Extract complex logic into helper",
+            "before": "complex code here",
+            "after": "helper() // cleaner",
+            "benefits": "Improves readability"
+          }
+        ],
+        "summary": "0 refactoring opportunities"
+      }
+    },
+    {
+      "file": "emacs.rc",
+      "codeQuality": {
+        "file": "emacs.rc",
+        "issues": [
+          {
+            "line": 58,
+            "severity": "high",
+            "category": "maintainability",
+            "description": "Potential issue in emacs.rc",
+            "suggestion": "Consider reviewing this section"
+          },
+          {
+            "line": 28,
+            "severity": "high",
+            "category": "maintainability",
+            "description": "Potential issue in emacs.rc",
+            "suggestion": "Consider reviewing this section"
+          }
+        ],
+        "overallScore": 73,
+        "summary": "Analyzed emacs.rc: 0 issues found"
+      },
+      "testCoverage": {
+        "file": "emacs.rc",
+        "hasTests": true,
+        "testFiles": [],
+        "untestedPaths": [],
+        "coverageEstimate": 78,
+        "summary": "Test coverage: ~71%"
+      },
+      "refactorings": {
+        "file": "emacs.rc",
+        "suggestions": [],
+        "summary": "0 refactoring opportunities"
+      }
+    },
+    {
+      "file": "epath.h",
+      "codeQuality": {
+        "file": "epath.h",
+        "issues": [
+          {
+            "line": 46,
+            "severity": "high",
+            "category": "style",
+            "description": "Potential issue in epath.h",
+            "suggestion": "Consider reviewing this section"
+          },
+          {
+            "line": 33,
+            "severity": "critical",
+            "category": "security",
+            "description": "Potential issue in epath.h",
+            "suggestion": "Consider reviewing this section"
+          }
+        ],
+        "overallScore": 60,
+        "summary": "Analyzed epath.h: 0 issues found"
+      },
+      "testCoverage": {
+        "file": "epath.h",
+        "hasTests": true,
+        "testFiles": [],
+        "untestedPaths": [],
+        "coverageEstimate": 59,
+        "summary": "Test coverage: ~88%"
+      },
+      "refactorings": {
+        "file": "epath.h",
+        "suggestions": [],
+        "summary": "1 refactoring opportunities"
+      }
+    },
+    {
+      "file": "estruct.h",
+      "codeQuality": {
+        "file": "estruct.h",
+        "issues": [
+          {
+            "line": 100,
+            "severity": "critical",
+            "category": "maintainability",
+            "description": "Potential issue in estruct.h",
+            "suggestion": "Consider reviewing this section"
+          },
+          {
+            "line": 2,
+            "severity": "critical",
+            "category": "maintainability",
+            "description": "Potential issue in estruct.h",
+            "suggestion": "Consider reviewing this section"
+          }
+        ],
+        "overallScore": 68,
+        "summary": "Analyzed estruct.h: 1 issues found"
+      },
+      "testCoverage": {
+        "file": "estruct.h",
+        "hasTests": false,
+        "testFiles": [],
+        "untestedPaths": [],
+        "coverageEstimate": 83,
+        "summary": "Test coverage: ~69%"
+      },
+      "refactorings": {
+        "file": "estruct.h",
+        "suggestions": [
+          {
+            "type": "extract-function",
+            "location": "line 42",
+            "impact": "medium",
+            "description": "Extract complex logic into helper",
+            "before": "complex code here",
+            "after": "helper() // cleaner",
+            "benefits": "Improves readability"
+          }
+        ],
+        "summary": "2 refactoring opportunities"
+      }
+    },
+    {
+      "file": "eval.c",
+      "codeQuality": {
+        "file": "eval.c",
+        "issues": [],
+        "overallScore": 79,
+        "summary": "Analyzed eval.c: 1 issues found"
+      },
+      "testCoverage": {
+        "file": "eval.c",
+        "hasTests": true,
+        "testFiles": [],
+        "untestedPaths": [],
+        "coverageEstimate": 56,
+        "summary": "Test coverage: ~71%"
+      },
+      "refactorings": {
+        "file": "eval.c",
+        "suggestions": [],
+        "summary": "0 refactoring opportunities"
+      }
+    },
+    {
+      "file": "evar.h",
+      "codeQuality": {
+        "file": "evar.h",
+        "issues": [
+          {
+            "line": 31,
+            "severity": "high",
+            "category": "security",
+            "description": "Potential issue in evar.h",
+            "suggestion": "Consider reviewing this section"
+          },
+          {
+            "line": 37,
+            "severity": "high",
+            "category": "performance",
+            "description": "Potential issue in evar.h",
+            "suggestion": "Consider reviewing this section"
+          }
+        ],
+        "overallScore": 94,
+        "summary": "Analyzed evar.h: 1 issues found"
+      },
+      "testCoverage": {
+        "file": "evar.h",
+        "hasTests": true,
+        "testFiles": [],
+        "untestedPaths": [],
+        "coverageEstimate": 68,
+        "summary": "Test coverage: ~66%"
+      },
+      "refactorings": {
+        "file": "evar.h",
+        "suggestions": [],
+        "summary": "2 refactoring opportunities"
+      }
+    },
+    {
+      "file": "exec.c",
+      "codeQuality": {
+        "file": "exec.c",
+        "issues": [
+          {
+            "line": 93,
+            "severity": "medium",
+            "category": "security",
+            "description": "Potential issue in exec.c",
+            "suggestion": "Consider reviewing this section"
+          },
+          {
+            "line": 2,
+            "severity": "medium",
+            "category": "maintainability",
+            "description": "Potential issue in exec.c",
+            "suggestion": "Consider reviewing this section"
+          }
+        ],
+        "overallScore": 62,
+        "summary": "Analyzed exec.c: 0 issues found"
+      },
+      "testCoverage": {
+        "file": "exec.c",
+        "hasTests": false,
+        "testFiles": [],
+        "untestedPaths": [],
+        "coverageEstimate": 87,
+        "summary": "Test coverage: ~83%"
+      },
+      "refactorings": {
+        "file": "exec.c",
+        "suggestions": [],
+        "summary": "0 refactoring opportunities"
+      }
+    },
+    {
+      "file": "file.c",
+      "codeQuality": {
+        "file": "file.c",
+        "issues": [
+          {
+            "line": 97,
+            "severity": "critical",
+            "category": "performance",
+            "description": "Potential issue in file.c",
+            "suggestion": "Consider reviewing this section"
+          }
+        ],
+        "overallScore": 97,
+        "summary": "Analyzed file.c: 1 issues found"
+      },
+      "testCoverage": {
+        "file": "file.c",
+        "hasTests": true,
+        "testFiles": [],
+        "untestedPaths": [],
+        "coverageEstimate": 87,
+        "summary": "Test coverage: ~88%"
+      },
+      "refactorings": {
+        "file": "file.c",
+        "suggestions": [],
+        "summary": "2 refactoring opportunities"
+      }
+    },
+    {
+      "file": "fileio.c",
+      "codeQuality": {
+        "file": "fileio.c",
+        "issues": [],
+        "overallScore": 90,
+        "summary": "Analyzed fileio.c: 1 issues found"
+      },
+      "testCoverage": {
+        "file": "fileio.c",
+        "hasTests": true,
+        "testFiles": [],
+        "untestedPaths": [],
+        "coverageEstimate": 89,
+        "summary": "Test coverage: ~80%"
+      },
+      "refactorings": {
+        "file": "fileio.c",
+        "suggestions": [
+          {
+            "type": "extract-function",
+            "location": "line 42",
+            "impact": "medium",
+            "description": "Extract complex logic into helper",
+            "before": "complex code here",
+            "after": "helper() // cleaner",
+            "benefits": "Improves readability"
+          }
+        ],
+        "summary": "1 refactoring opportunities"
+      }
+    },
+    {
+      "file": "globals.c",
+      "codeQuality": {
+        "file": "globals.c",
+        "issues": [
+          {
+            "line": 19,
+            "severity": "medium",
+            "category": "security",
+            "description": "Potential issue in globals.c",
+            "suggestion": "Consider reviewing this section"
+          },
+          {
+            "line": 67,
+            "severity": "critical",
+            "category": "performance",
+            "description": "Potential issue in globals.c",
+            "suggestion": "Consider reviewing this section"
+          }
+        ],
+        "overallScore": 85,
+        "summary": "Analyzed globals.c: 0 issues found"
+      },
+      "testCoverage": {
+        "file": "globals.c",
+        "hasTests": true,
+        "testFiles": [],
+        "untestedPaths": [],
+        "coverageEstimate": 89,
+        "summary": "Test coverage: ~81%"
+      },
+      "refactorings": {
+        "file": "globals.c",
+        "suggestions": [],
+        "summary": "0 refactoring opportunities"
+      }
+    },
+    {
+      "file": "ibmpc.c",
+      "codeQuality": {
+        "file": "ibmpc.c",
+        "issues": [
+          {
+            "line": 97,
+            "severity": "medium",
+            "category": "performance",
+            "description": "Potential issue in ibmpc.c",
+            "suggestion": "Consider reviewing this section"
+          },
+          {
+            "line": 92,
+            "severity": "critical",
+            "category": "security",
+            "description": "Potential issue in ibmpc.c",
+            "suggestion": "Consider reviewing this section"
+          }
+        ],
+        "overallScore": 91,
+        "summary": "Analyzed ibmpc.c: 1 issues found"
+      },
+      "testCoverage": {
+        "file": "ibmpc.c",
+        "hasTests": true,
+        "testFiles": [],
+        "untestedPaths": [],
+        "coverageEstimate": 88,
+        "summary": "Test coverage: ~50%"
+      },
+      "refactorings": {
+        "file": "ibmpc.c",
+        "suggestions": [],
+        "summary": "0 refactoring opportunities"
+      }
+    },
+    {
+      "file": "input.c",
+      "codeQuality": {
+        "file": "input.c",
+        "issues": [
+          {
+            "line": 34,
+            "severity": "critical",
+            "category": "security",
+            "description": "Potential issue in input.c",
+            "suggestion": "Consider reviewing this section"
+          }
+        ],
+        "overallScore": 80,
+        "summary": "Analyzed input.c: 0 issues found"
+      },
+      "testCoverage": {
+        "file": "input.c",
+        "hasTests": true,
+        "testFiles": [],
+        "untestedPaths": [],
+        "coverageEstimate": 71,
+        "summary": "Test coverage: ~89%"
+      },
+      "refactorings": {
+        "file": "input.c",
+        "suggestions": [
+          {
+            "type": "extract-function",
+            "location": "line 42",
+            "impact": "medium",
+            "description": "Extract complex logic into helper",
+            "before": "complex code here",
+            "after": "helper() // cleaner",
+            "benefits": "Improves readability"
+          }
+        ],
+        "summary": "2 refactoring opportunities"
+      }
+    },
+    {
+      "file": "isearch.c",
+      "codeQuality": {
+        "file": "isearch.c",
+        "issues": [
+          {
+            "line": 40,
+            "severity": "high",
+            "category": "security",
+            "description": "Potential issue in isearch.c",
+            "suggestion": "Consider reviewing this section"
+          },
+          {
+            "line": 38,
+            "severity": "low",
+            "category": "security",
+            "description": "Potential issue in isearch.c",
+            "suggestion": "Consider reviewing this section"
+          }
+        ],
+        "overallScore": 94,
+        "summary": "Analyzed isearch.c: 0 issues found"
+      },
+      "testCoverage": {
+        "file": "isearch.c",
+        "hasTests": false,
+        "testFiles": [],
+        "untestedPaths": [],
+        "coverageEstimate": 56,
+        "summary": "Test coverage: ~72%"
+      },
+      "refactorings": {
+        "file": "isearch.c",
+        "suggestions": [],
+        "summary": "1 refactoring opportunities"
+      }
+    },
+    {
+      "file": "line.c",
+      "codeQuality": {
+        "file": "line.c",
+        "issues": [
+          {
+            "line": 77,
+            "severity": "critical",
+            "category": "maintainability",
+            "description": "Potential issue in line.c",
+            "suggestion": "Consider reviewing this section"
+          },
+          {
+            "line": 40,
+            "severity": "medium",
+            "category": "security",
+            "description": "Potential issue in line.c",
+            "suggestion": "Consider reviewing this section"
+          }
+        ],
+        "overallScore": 68,
+        "summary": "Analyzed line.c: 1 issues found"
+      },
+      "testCoverage": {
+        "file": "line.c",
+        "hasTests": false,
+        "testFiles": [],
+        "untestedPaths": [],
+        "coverageEstimate": 50,
+        "summary": "Test coverage: ~79%"
+      },
+      "refactorings": {
+        "file": "line.c",
+        "suggestions": [],
+        "summary": "2 refactoring opportunities"
+      }
+    },
+    {
+      "file": "line.h",
+      "codeQuality": {
+        "file": "line.h",
+        "issues": [],
+        "overallScore": 95,
+        "summary": "Analyzed line.h: 0 issues found"
+      },
+      "testCoverage": {
+        "file": "line.h",
+        "hasTests": false,
+        "testFiles": [],
+        "untestedPaths": [],
+        "coverageEstimate": 58,
+        "summary": "Test coverage: ~86%"
+      },
+      "refactorings": {
+        "file": "line.h",
+        "suggestions": [
+          {
+            "type": "extract-function",
+            "location": "line 42",
+            "impact": "medium",
+            "description": "Extract complex logic into helper",
+            "before": "complex code here",
+            "after": "helper() // cleaner",
+            "benefits": "Improves readability"
+          }
+        ],
+        "summary": "2 refactoring opportunities"
+      }
+    },
+    {
+      "file": "lock.c",
+      "codeQuality": {
+        "file": "lock.c",
+        "issues": [],
+        "overallScore": 64,
+        "summary": "Analyzed lock.c: 0 issues found"
+      },
+      "testCoverage": {
+        "file": "lock.c",
+        "hasTests": false,
+        "testFiles": [],
+        "untestedPaths": [
+          {
+            "type": "function",
+            "location": "main handler",
+            "priority": "high",
+            "reasoning": "Critical business logic",
+            "suggestedTest": "Test main use case"
+          }
+        ],
+        "coverageEstimate": 79,
+        "summary": "Test coverage: ~61%"
+      },
+      "refactorings": {
+        "file": "lock.c",
+        "suggestions": [],
+        "summary": "1 refactoring opportunities"
+      }
+    },
+    {
+      "file": "main.c",
+      "codeQuality": {
+        "file": "main.c",
+        "issues": [],
+        "overallScore": 88,
+        "summary": "Analyzed main.c: 0 issues found"
+      },
+      "testCoverage": {
+        "file": "main.c",
+        "hasTests": true,
+        "testFiles": [],
+        "untestedPaths": [],
+        "coverageEstimate": 61,
+        "summary": "Test coverage: ~68%"
+      },
+      "refactorings": {
+        "file": "main.c",
+        "suggestions": [],
+        "summary": "1 refactoring opportunities"
+      }
+    },
+    {
+      "file": "names.c",
+      "codeQuality": {
+        "file": "names.c",
+        "issues": [
+          {
+            "line": 77,
+            "severity": "low",
+            "category": "style",
+            "description": "Potential issue in names.c",
+            "suggestion": "Consider reviewing this section"
+          }
+        ],
+        "overallScore": 79,
+        "summary": "Analyzed names.c: 0 issues found"
+      },
+      "testCoverage": {
+        "file": "names.c",
+        "hasTests": true,
+        "testFiles": [],
+        "untestedPaths": [
+          {
+            "type": "function",
+            "location": "main handler",
+            "priority": "high",
+            "reasoning": "Critical business logic",
+            "suggestedTest": "Test main use case"
+          }
+        ],
+        "coverageEstimate": 60,
+        "summary": "Test coverage: ~59%"
+      },
+      "refactorings": {
+        "file": "names.c",
+        "suggestions": [],
+        "summary": "2 refactoring opportunities"
+      }
+    }
+  ],
+  "summary": {
+    "totalFiles": 30,
+    "overallScore": 79,
+    "criticalIssues": 11,
+    "highPriorityTests": 5,
+    "refactoringOpportunities": 6
+  },
+  "recommendations": [
+    {
+      "priority": "critical",
+      "category": "security",
+      "description": "Potential issue in ansi.c in ansi.c",
+      "files": [
+        "ansi.c"
+      ]
+    },
+    {
+      "priority": "critical",
+      "category": "style",
+      "description": "Potential issue in edef.h in edef.h",
+      "files": [
+        "edef.h"
+      ]
+    },
+    {
+      "priority": "critical",
+      "category": "style",
+      "description": "Potential issue in efunc.h in efunc.h",
+      "files": [
+        "efunc.h"
+      ]
+    },
+    {
+      "priority": "critical",
+      "category": "security",
+      "description": "Potential issue in epath.h in epath.h",
+      "files": [
+        "epath.h"
+      ]
+    },
+    {
+      "priority": "critical",
+      "category": "maintainability",
+      "description": "Potential issue in estruct.h in estruct.h",
+      "files": [
+        "estruct.h"
+      ]
+    },
+    {
+      "priority": "critical",
+      "category": "maintainability",
+      "description": "Potential issue in estruct.h in estruct.h",
+      "files": [
+        "estruct.h"
+      ]
+    },
+    {
+      "priority": "critical",
+      "category": "performance",
+      "description": "Potential issue in file.c in file.c",
+      "files": [
+        "file.c"
+      ]
+    },
+    {
+      "priority": "critical",
+      "category": "performance",
+      "description": "Potential issue in globals.c in globals.c",
+      "files": [
+        "globals.c"
+      ]
+    },
+    {
+      "priority": "critical",
+      "category": "security",
+      "description": "Potential issue in ibmpc.c in ibmpc.c",
+      "files": [
+        "ibmpc.c"
+      ]
+    },
+    {
+      "priority": "critical",
+      "category": "security",
+      "description": "Potential issue in input.c in input.c",
+      "files": [
+        "input.c"
+      ]
+    }
+  ],
+  "metadata": {
+    "analyzedAt": "2026-11-22T20:27:20.936Z",
+    "duration": 0,
+    "agentVersions": {
+      "code-quality-analyzer": "1.0.0",
+      "test-coverage-analyzer": "1.0.0",
+      "refactoring-suggester": "1.0.0"
+    }
+  }
+}
