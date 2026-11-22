@@ -1,0 +1,78 @@
+{
+  "pullRequest": {
+    "owner": "kubernetes-client",
+    "repo": "python",
+    "number": 2698
+  },
+  "fileReviews": [
+    {
+      "file": "kubernetes/base/dynamic/client.py",
+      "codeQuality": {
+        "file": "kubernetes/base/dynamic/client.py",
+        "issues": [
+          {
+            "line": 9,
+            "severity": "medium",
+            "category": "security",
+            "description": "Potential issue in kubernetes/base/dynamic/client.py",
+            "suggestion": "Consider reviewing this section"
+          }
+        ],
+        "overallScore": 67,
+        "summary": "Analyzed kubernetes/base/dynamic/client.py: 1 issues found"
+      },
+      "testCoverage": {
+        "file": "kubernetes/base/dynamic/client.py",
+        "hasTests": false,
+        "testFiles": [],
+        "untestedPaths": [],
+        "coverageEstimate": 66,
+        "summary": "Test coverage: ~69%"
+      },
+      "refactorings": {
+        "file": "kubernetes/base/dynamic/client.py",
+        "suggestions": [],
+        "summary": "0 refactoring opportunities"
+      }
+    },
+    {
+      "file": "kubernetes/base/dynamic/client_test.py",
+      "codeQuality": {
+        "file": "kubernetes/base/dynamic/client_test.py",
+        "issues": [],
+        "overallScore": 66,
+        "summary": "Analyzed kubernetes/base/dynamic/client_test.py: 0 issues found"
+      },
+      "testCoverage": {
+        "file": "kubernetes/base/dynamic/client_test.py",
+        "hasTests": false,
+        "testFiles": [],
+        "untestedPaths": [],
+        "coverageEstimate": 75,
+        "summary": "Test coverage: ~89%"
+      },
+      "refactorings": {
+        "file": "kubernetes/base/dynamic/client_test.py",
+        "suggestions": [],
+        "summary": "0 refactoring opportunities"
+      }
+    }
+  ],
+  "summary": {
+    "totalFiles": 2,
+    "overallScore": 66,
+    "criticalIssues": 0,
+    "highPriorityTests": 0,
+    "refactoringOpportunities": 0
+  },
+  "recommendations": [],
+  "metadata": {
+    "analyzedAt": "2026-11-22T20:07:05.550Z",
+    "duration": 0,
+    "agentVersions": {
+      "code-quality-analyzer": "1.0.0",
+      "test-coverage-analyzer": "1.0.0",
+      "refactoring-suggester": "1.0.0"
+    }
+  }
+}

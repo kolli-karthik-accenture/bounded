@@ -1,0 +1,112 @@
+{
+  "pullRequest": {
+    "owner": "BaaRai",
+    "repo": "ARTEX",
+    "number": 494
+  },
+  "fileReviews": [
+    {
+      "file": "CHANGELOG.md",
+      "codeQuality": {
+        "file": "CHANGELOG.md",
+        "issues": [
+          {
+            "line": 63,
+            "severity": "high",
+            "category": "security",
+            "description": "Potential issue in CHANGELOG.md",
+            "suggestion": "Consider reviewing this section"
+          }
+        ],
+        "overallScore": 64,
+        "summary": "Analyzed CHANGELOG.md: 1 issues found"
+      },
+      "testCoverage": {
+        "file": "CHANGELOG.md",
+        "hasTests": true,
+        "testFiles": [],
+        "untestedPaths": [],
+        "coverageEstimate": 68,
+        "summary": "Test coverage: ~68%"
+      },
+      "refactorings": {
+        "file": "CHANGELOG.md",
+        "suggestions": [],
+        "summary": "0 refactoring opportunities"
+      }
+    },
+    {
+      "file": "server/server_mgmt.go",
+      "codeQuality": {
+        "file": "server/server_mgmt.go",
+        "issues": [
+          {
+            "line": 23,
+            "severity": "low",
+            "category": "security",
+            "description": "Potential issue in server/server_mgmt.go",
+            "suggestion": "Consider reviewing this section"
+          },
+          {
+            "line": 23,
+            "severity": "critical",
+            "category": "security",
+            "description": "Potential issue in server/server_mgmt.go",
+            "suggestion": "Consider reviewing this section"
+          }
+        ],
+        "overallScore": 72,
+        "summary": "Analyzed server/server_mgmt.go: 2 issues found"
+      },
+      "testCoverage": {
+        "file": "server/server_mgmt.go",
+        "hasTests": true,
+        "testFiles": [],
+        "untestedPaths": [],
+        "coverageEstimate": 69,
+        "summary": "Test coverage: ~56%"
+      },
+      "refactorings": {
+        "file": "server/server_mgmt.go",
+        "suggestions": [
+          {
+            "type": "extract-function",
+            "location": "line 42",
+            "impact": "medium",
+            "description": "Extract complex logic into helper",
+            "before": "complex code here",
+            "after": "helper() // cleaner",
+            "benefits": "Improves readability"
+          }
+        ],
+        "summary": "1 refactoring opportunities"
+      }
+    }
+  ],
+  "summary": {
+    "totalFiles": 2,
+    "overallScore": 68,
+    "criticalIssues": 1,
+    "highPriorityTests": 0,
+    "refactoringOpportunities": 1
+  },
+  "recommendations": [
+    {
+      "priority": "critical",
+      "category": "security",
+      "description": "Potential issue in server/server_mgmt.go in server/server_mgmt.go",
+      "files": [
+        "server/server_mgmt.go"
+      ]
+    }
+  ],
+  "metadata": {
+    "analyzedAt": "2026-11-22T20:11:04.733Z",
+    "duration": 0,
+    "agentVersions": {
+      "code-quality-analyzer": "1.0.0",
+      "test-coverage-analyzer": "1.0.0",
+      "refactoring-suggester": "1.0.0"
+    }
+  }
+}

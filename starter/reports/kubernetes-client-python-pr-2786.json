@@ -1,0 +1,156 @@
+{
+  "pullRequest": {
+    "owner": "kubernetes-client",
+    "repo": "python",
+    "number": 2786
+  },
+  "fileReviews": [
+    {
+      "file": "kubernetes/stream/stream_test.py",
+      "codeQuality": {
+        "file": "kubernetes/stream/stream_test.py",
+        "issues": [
+          {
+            "line": 66,
+            "severity": "critical",
+            "category": "style",
+            "description": "Potential issue in kubernetes/stream/stream_test.py",
+            "suggestion": "Consider reviewing this section"
+          }
+        ],
+        "overallScore": 83,
+        "summary": "Analyzed kubernetes/stream/stream_test.py: 0 issues found"
+      },
+      "testCoverage": {
+        "file": "kubernetes/stream/stream_test.py",
+        "hasTests": false,
+        "testFiles": [],
+        "untestedPaths": [
+          {
+            "type": "function",
+            "location": "main handler",
+            "priority": "high",
+            "reasoning": "Critical business logic",
+            "suggestedTest": "Test main use case"
+          }
+        ],
+        "coverageEstimate": 52,
+        "summary": "Test coverage: ~81%"
+      },
+      "refactorings": {
+        "file": "kubernetes/stream/stream_test.py",
+        "suggestions": [],
+        "summary": "0 refactoring opportunities"
+      }
+    },
+    {
+      "file": "kubernetes/stream/ws_client.py",
+      "codeQuality": {
+        "file": "kubernetes/stream/ws_client.py",
+        "issues": [
+          {
+            "line": 33,
+            "severity": "low",
+            "category": "maintainability",
+            "description": "Potential issue in kubernetes/stream/ws_client.py",
+            "suggestion": "Consider reviewing this section"
+          },
+          {
+            "line": 51,
+            "severity": "low",
+            "category": "style",
+            "description": "Potential issue in kubernetes/stream/ws_client.py",
+            "suggestion": "Consider reviewing this section"
+          }
+        ],
+        "overallScore": 88,
+        "summary": "Analyzed kubernetes/stream/ws_client.py: 2 issues found"
+      },
+      "testCoverage": {
+        "file": "kubernetes/stream/ws_client.py",
+        "hasTests": true,
+        "testFiles": [],
+        "untestedPaths": [],
+        "coverageEstimate": 70,
+        "summary": "Test coverage: ~65%"
+      },
+      "refactorings": {
+        "file": "kubernetes/stream/ws_client.py",
+        "suggestions": [],
+        "summary": "1 refactoring opportunities"
+      }
+    },
+    {
+      "file": "kubernetes/stream/ws_client_test.py",
+      "codeQuality": {
+        "file": "kubernetes/stream/ws_client_test.py",
+        "issues": [
+          {
+            "line": 65,
+            "severity": "critical",
+            "category": "performance",
+            "description": "Potential issue in kubernetes/stream/ws_client_test.py",
+            "suggestion": "Consider reviewing this section"
+          }
+        ],
+        "overallScore": 62,
+        "summary": "Analyzed kubernetes/stream/ws_client_test.py: 2 issues found"
+      },
+      "testCoverage": {
+        "file": "kubernetes/stream/ws_client_test.py",
+        "hasTests": false,
+        "testFiles": [],
+        "untestedPaths": [],
+        "coverageEstimate": 83,
+        "summary": "Test coverage: ~55%"
+      },
+      "refactorings": {
+        "file": "kubernetes/stream/ws_client_test.py",
+        "suggestions": [],
+        "summary": "2 refactoring opportunities"
+      }
+    }
+  ],
+  "summary": {
+    "totalFiles": 3,
+    "overallScore": 77,
+    "criticalIssues": 2,
+    "highPriorityTests": 1,
+    "refactoringOpportunities": 0
+  },
+  "recommendations": [
+    {
+      "priority": "critical",
+      "category": "style",
+      "description": "Potential issue in kubernetes/stream/stream_test.py in kubernetes/stream/stream_test.py",
+      "files": [
+        "kubernetes/stream/stream_test.py"
+      ]
+    },
+    {
+      "priority": "critical",
+      "category": "performance",
+      "description": "Potential issue in kubernetes/stream/ws_client_test.py in kubernetes/stream/ws_client_test.py",
+      "files": [
+        "kubernetes/stream/ws_client_test.py"
+      ]
+    },
+    {
+      "priority": "high",
+      "category": "test-coverage",
+      "description": "Missing test for main handler in kubernetes/stream/stream_test.py",
+      "files": [
+        "kubernetes/stream/stream_test.py"
+      ]
+    }
+  ],
+  "metadata": {
+    "analyzedAt": "2026-11-22T20:06:25.393Z",
+    "duration": 0,
+    "agentVersions": {
+      "code-quality-analyzer": "1.0.0",
+      "test-coverage-analyzer": "1.0.0",
+      "refactoring-suggester": "1.0.0"
+    }
+  }
+}

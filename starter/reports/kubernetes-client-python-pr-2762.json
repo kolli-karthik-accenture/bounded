@@ -1,0 +1,1115 @@
+{
+  "pullRequest": {
+    "owner": "kubernetes-client",
+    "repo": "python",
+    "number": 2762
+  },
+  "fileReviews": [
+    {
+      "file": "devel/measure-package-size.py",
+      "codeQuality": {
+        "file": "devel/measure-package-size.py",
+        "issues": [
+          {
+            "line": 10,
+            "severity": "medium",
+            "category": "security",
+            "description": "Potential issue in devel/measure-package-size.py",
+            "suggestion": "Consider reviewing this section"
+          },
+          {
+            "line": 17,
+            "severity": "high",
+            "category": "performance",
+            "description": "Potential issue in devel/measure-package-size.py",
+            "suggestion": "Consider reviewing this section"
+          }
+        ],
+        "overallScore": 82,
+        "summary": "Analyzed devel/measure-package-size.py: 0 issues found"
+      },
+      "testCoverage": {
+        "file": "devel/measure-package-size.py",
+        "hasTests": true,
+        "testFiles": [],
+        "untestedPaths": [],
+        "coverageEstimate": 79,
+        "summary": "Test coverage: ~64%"
+      },
+      "refactorings": {
+        "file": "devel/measure-package-size.py",
+        "suggestions": [],
+        "summary": "2 refactoring opportunities"
+      }
+    },
+    {
+      "file": "kubernetes/.openapi-generator/COMMIT",
+      "codeQuality": {
+        "file": "kubernetes/.openapi-generator/COMMIT",
+        "issues": [
+          {
+            "line": 78,
+            "severity": "critical",
+            "category": "security",
+            "description": "Potential issue in kubernetes/.openapi-generator/COMMIT",
+            "suggestion": "Consider reviewing this section"
+          },
+          {
+            "line": 63,
+            "severity": "critical",
+            "category": "security",
+            "description": "Potential issue in kubernetes/.openapi-generator/COMMIT",
+            "suggestion": "Consider reviewing this section"
+          }
+        ],
+        "overallScore": 80,
+        "summary": "Analyzed kubernetes/.openapi-generator/COMMIT: 0 issues found"
+      },
+      "testCoverage": {
+        "file": "kubernetes/.openapi-generator/COMMIT",
+        "hasTests": true,
+        "testFiles": [],
+        "untestedPaths": [],
+        "coverageEstimate": 50,
+        "summary": "Test coverage: ~69%"
+      },
+      "refactorings": {
+        "file": "kubernetes/.openapi-generator/COMMIT",
+        "suggestions": [
+          {
+            "type": "extract-function",
+            "location": "line 42",
+            "impact": "medium",
+            "description": "Extract complex logic into helper",
+            "before": "complex code here",
+            "after": "helper() // cleaner",
+            "benefits": "Improves readability"
+          }
+        ],
+        "summary": "2 refactoring opportunities"
+      }
+    },
+    {
+      "file": "kubernetes/.openapi-generator/FILES",
+      "codeQuality": {
+        "file": "kubernetes/.openapi-generator/FILES",
+        "issues": [
+          {
+            "line": 65,
+            "severity": "medium",
+            "category": "performance",
+            "description": "Potential issue in kubernetes/.openapi-generator/FILES",
+            "suggestion": "Consider reviewing this section"
+          },
+          {
+            "line": 61,
+            "severity": "medium",
+            "category": "maintainability",
+            "description": "Potential issue in kubernetes/.openapi-generator/FILES",
+            "suggestion": "Consider reviewing this section"
+          }
+        ],
+        "overallScore": 85,
+        "summary": "Analyzed kubernetes/.openapi-generator/FILES: 0 issues found"
+      },
+      "testCoverage": {
+        "file": "kubernetes/.openapi-generator/FILES",
+        "hasTests": true,
+        "testFiles": [],
+        "untestedPaths": [],
+        "coverageEstimate": 70,
+        "summary": "Test coverage: ~64%"
+      },
+      "refactorings": {
+        "file": "kubernetes/.openapi-generator/FILES",
+        "suggestions": [],
+        "summary": "2 refactoring opportunities"
+      }
+    },
+    {
+      "file": "kubernetes/.openapi-generator/VERSION",
+      "codeQuality": {
+        "file": "kubernetes/.openapi-generator/VERSION",
+        "issues": [
+          {
+            "line": 68,
+            "severity": "critical",
+            "category": "style",
+            "description": "Potential issue in kubernetes/.openapi-generator/VERSION",
+            "suggestion": "Consider reviewing this section"
+          },
+          {
+            "line": 76,
+            "severity": "medium",
+            "category": "style",
+            "description": "Potential issue in kubernetes/.openapi-generator/VERSION",
+            "suggestion": "Consider reviewing this section"
+          }
+        ],
+        "overallScore": 70,
+        "summary": "Analyzed kubernetes/.openapi-generator/VERSION: 2 issues found"
+      },
+      "testCoverage": {
+        "file": "kubernetes/.openapi-generator/VERSION",
+        "hasTests": false,
+        "testFiles": [],
+        "untestedPaths": [],
+        "coverageEstimate": 56,
+        "summary": "Test coverage: ~67%"
+      },
+      "refactorings": {
+        "file": "kubernetes/.openapi-generator/VERSION",
+        "suggestions": [],
+        "summary": "2 refactoring opportunities"
+      }
+    },
+    {
+      "file": "kubernetes/README.md",
+      "codeQuality": {
+        "file": "kubernetes/README.md",
+        "issues": [
+          {
+            "line": 17,
+            "severity": "low",
+            "category": "maintainability",
+            "description": "Potential issue in kubernetes/README.md",
+            "suggestion": "Consider reviewing this section"
+          }
+        ],
+        "overallScore": 69,
+        "summary": "Analyzed kubernetes/README.md: 1 issues found"
+      },
+      "testCoverage": {
+        "file": "kubernetes/README.md",
+        "hasTests": true,
+        "testFiles": [],
+        "untestedPaths": [],
+        "coverageEstimate": 70,
+        "summary": "Test coverage: ~52%"
+      },
+      "refactorings": {
+        "file": "kubernetes/README.md",
+        "suggestions": [],
+        "summary": "2 refactoring opportunities"
+      }
+    },
+    {
+      "file": "kubernetes/aio/.openapi-generator/COMMIT",
+      "codeQuality": {
+        "file": "kubernetes/aio/.openapi-generator/COMMIT",
+        "issues": [],
+        "overallScore": 99,
+        "summary": "Analyzed kubernetes/aio/.openapi-generator/COMMIT: 0 issues found"
+      },
+      "testCoverage": {
+        "file": "kubernetes/aio/.openapi-generator/COMMIT",
+        "hasTests": false,
+        "testFiles": [],
+        "untestedPaths": [
+          {
+            "type": "function",
+            "location": "main handler",
+            "priority": "high",
+            "reasoning": "Critical business logic",
+            "suggestedTest": "Test main use case"
+          }
+        ],
+        "coverageEstimate": 72,
+        "summary": "Test coverage: ~56%"
+      },
+      "refactorings": {
+        "file": "kubernetes/aio/.openapi-generator/COMMIT",
+        "suggestions": [],
+        "summary": "0 refactoring opportunities"
+      }
+    },
+    {
+      "file": "kubernetes/aio/.openapi-generator/FILES",
+      "codeQuality": {
+        "file": "kubernetes/aio/.openapi-generator/FILES",
+        "issues": [],
+        "overallScore": 92,
+        "summary": "Analyzed kubernetes/aio/.openapi-generator/FILES: 1 issues found"
+      },
+      "testCoverage": {
+        "file": "kubernetes/aio/.openapi-generator/FILES",
+        "hasTests": false,
+        "testFiles": [],
+        "untestedPaths": [],
+        "coverageEstimate": 56,
+        "summary": "Test coverage: ~64%"
+      },
+      "refactorings": {
+        "file": "kubernetes/aio/.openapi-generator/FILES",
+        "suggestions": [
+          {
+            "type": "extract-function",
+            "location": "line 42",
+            "impact": "medium",
+            "description": "Extract complex logic into helper",
+            "before": "complex code here",
+            "after": "helper() // cleaner",
+            "benefits": "Improves readability"
+          }
+        ],
+        "summary": "1 refactoring opportunities"
+      }
+    },
+    {
+      "file": "kubernetes/aio/.openapi-generator/VERSION",
+      "codeQuality": {
+        "file": "kubernetes/aio/.openapi-generator/VERSION",
+        "issues": [
+          {
+            "line": 4,
+            "severity": "medium",
+            "category": "maintainability",
+            "description": "Potential issue in kubernetes/aio/.openapi-generator/VERSION",
+            "suggestion": "Consider reviewing this section"
+          },
+          {
+            "line": 11,
+            "severity": "critical",
+            "category": "style",
+            "description": "Potential issue in kubernetes/aio/.openapi-generator/VERSION",
+            "suggestion": "Consider reviewing this section"
+          }
+        ],
+        "overallScore": 69,
+        "summary": "Analyzed kubernetes/aio/.openapi-generator/VERSION: 1 issues found"
+      },
+      "testCoverage": {
+        "file": "kubernetes/aio/.openapi-generator/VERSION",
+        "hasTests": false,
+        "testFiles": [],
+        "untestedPaths": [
+          {
+            "type": "function",
+            "location": "main handler",
+            "priority": "high",
+            "reasoning": "Critical business logic",
+            "suggestedTest": "Test main use case"
+          }
+        ],
+        "coverageEstimate": 87,
+        "summary": "Test coverage: ~76%"
+      },
+      "refactorings": {
+        "file": "kubernetes/aio/.openapi-generator/VERSION",
+        "suggestions": [],
+        "summary": "1 refactoring opportunities"
+      }
+    },
+    {
+      "file": "kubernetes/aio/README.md",
+      "codeQuality": {
+        "file": "kubernetes/aio/README.md",
+        "issues": [
+          {
+            "line": 18,
+            "severity": "medium",
+            "category": "style",
+            "description": "Potential issue in kubernetes/aio/README.md",
+            "suggestion": "Consider reviewing this section"
+          }
+        ],
+        "overallScore": 92,
+        "summary": "Analyzed kubernetes/aio/README.md: 2 issues found"
+      },
+      "testCoverage": {
+        "file": "kubernetes/aio/README.md",
+        "hasTests": false,
+        "testFiles": [],
+        "untestedPaths": [],
+        "coverageEstimate": 78,
+        "summary": "Test coverage: ~69%"
+      },
+      "refactorings": {
+        "file": "kubernetes/aio/README.md",
+        "suggestions": [],
+        "summary": "2 refactoring opportunities"
+      }
+    },
+    {
+      "file": "kubernetes/aio/client/_legacy_model_helpers.py",
+      "codeQuality": {
+        "file": "kubernetes/aio/client/_legacy_model_helpers.py",
+        "issues": [],
+        "overallScore": 76,
+        "summary": "Analyzed kubernetes/aio/client/_legacy_model_helpers.py: 2 issues found"
+      },
+      "testCoverage": {
+        "file": "kubernetes/aio/client/_legacy_model_helpers.py",
+        "hasTests": false,
+        "testFiles": [],
+        "untestedPaths": [
+          {
+            "type": "function",
+            "location": "main handler",
+            "priority": "high",
+            "reasoning": "Critical business logic",
+            "suggestedTest": "Test main use case"
+          }
+        ],
+        "coverageEstimate": 59,
+        "summary": "Test coverage: ~87%"
+      },
+      "refactorings": {
+        "file": "kubernetes/aio/client/_legacy_model_helpers.py",
+        "suggestions": [],
+        "summary": "2 refactoring opportunities"
+      }
+    },
+    {
+      "file": "kubernetes/aio/client/api/admissionregistration_api.py",
+      "codeQuality": {
+        "file": "kubernetes/aio/client/api/admissionregistration_api.py",
+        "issues": [
+          {
+            "line": 48,
+            "severity": "critical",
+            "category": "maintainability",
+            "description": "Potential issue in kubernetes/aio/client/api/admissionregistration_api.py",
+            "suggestion": "Consider reviewing this section"
+          }
+        ],
+        "overallScore": 66,
+        "summary": "Analyzed kubernetes/aio/client/api/admissionregistration_api.py: 0 issues found"
+      },
+      "testCoverage": {
+        "file": "kubernetes/aio/client/api/admissionregistration_api.py",
+        "hasTests": true,
+        "testFiles": [],
+        "untestedPaths": [],
+        "coverageEstimate": 82,
+        "summary": "Test coverage: ~59%"
+      },
+      "refactorings": {
+        "file": "kubernetes/aio/client/api/admissionregistration_api.py",
+        "suggestions": [],
+        "summary": "2 refactoring opportunities"
+      }
+    },
+    {
+      "file": "kubernetes/aio/client/api/admissionregistration_v1_api.py",
+      "codeQuality": {
+        "file": "kubernetes/aio/client/api/admissionregistration_v1_api.py",
+        "issues": [
+          {
+            "line": 51,
+            "severity": "medium",
+            "category": "security",
+            "description": "Potential issue in kubernetes/aio/client/api/admissionregistration_v1_api.py",
+            "suggestion": "Consider reviewing this section"
+          }
+        ],
+        "overallScore": 84,
+        "summary": "Analyzed kubernetes/aio/client/api/admissionregistration_v1_api.py: 2 issues found"
+      },
+      "testCoverage": {
+        "file": "kubernetes/aio/client/api/admissionregistration_v1_api.py",
+        "hasTests": true,
+        "testFiles": [],
+        "untestedPaths": [],
+        "coverageEstimate": 55,
+        "summary": "Test coverage: ~89%"
+      },
+      "refactorings": {
+        "file": "kubernetes/aio/client/api/admissionregistration_v1_api.py",
+        "suggestions": [
+          {
+            "type": "extract-function",
+            "location": "line 42",
+            "impact": "medium",
+            "description": "Extract complex logic into helper",
+            "before": "complex code here",
+            "after": "helper() // cleaner",
+            "benefits": "Improves readability"
+          }
+        ],
+        "summary": "2 refactoring opportunities"
+      }
+    },
+    {
+      "file": "kubernetes/aio/client/api/admissionregistration_v1alpha1_api.py",
+      "codeQuality": {
+        "file": "kubernetes/aio/client/api/admissionregistration_v1alpha1_api.py",
+        "issues": [
+          {
+            "line": 49,
+            "severity": "critical",
+            "category": "style",
+            "description": "Potential issue in kubernetes/aio/client/api/admissionregistration_v1alpha1_api.py",
+            "suggestion": "Consider reviewing this section"
+          },
+          {
+            "line": 37,
+            "severity": "low",
+            "category": "performance",
+            "description": "Potential issue in kubernetes/aio/client/api/admissionregistration_v1alpha1_api.py",
+            "suggestion": "Consider reviewing this section"
+          }
+        ],
+        "overallScore": 90,
+        "summary": "Analyzed kubernetes/aio/client/api/admissionregistration_v1alpha1_api.py: 2 issues found"
+      },
+      "testCoverage": {
+        "file": "kubernetes/aio/client/api/admissionregistration_v1alpha1_api.py",
+        "hasTests": false,
+        "testFiles": [],
+        "untestedPaths": [],
+        "coverageEstimate": 67,
+        "summary": "Test coverage: ~73%"
+      },
+      "refactorings": {
+        "file": "kubernetes/aio/client/api/admissionregistration_v1alpha1_api.py",
+        "suggestions": [
+          {
+            "type": "extract-function",
+            "location": "line 42",
+            "impact": "medium",
+            "description": "Extract complex logic into helper",
+            "before": "complex code here",
+            "after": "helper() // cleaner",
+            "benefits": "Improves readability"
+          }
+        ],
+        "summary": "0 refactoring opportunities"
+      }
+    },
+    {
+      "file": "kubernetes/aio/client/api/admissionregistration_v1beta1_api.py",
+      "codeQuality": {
+        "file": "kubernetes/aio/client/api/admissionregistration_v1beta1_api.py",
+        "issues": [
+          {
+            "line": 8,
+            "severity": "critical",
+            "category": "style",
+            "description": "Potential issue in kubernetes/aio/client/api/admissionregistration_v1beta1_api.py",
+            "suggestion": "Consider reviewing this section"
+          }
+        ],
+        "overallScore": 64,
+        "summary": "Analyzed kubernetes/aio/client/api/admissionregistration_v1beta1_api.py: 0 issues found"
+      },
+      "testCoverage": {
+        "file": "kubernetes/aio/client/api/admissionregistration_v1beta1_api.py",
+        "hasTests": false,
+        "testFiles": [],
+        "untestedPaths": [],
+        "coverageEstimate": 82,
+        "summary": "Test coverage: ~83%"
+      },
+      "refactorings": {
+        "file": "kubernetes/aio/client/api/admissionregistration_v1beta1_api.py",
+        "suggestions": [],
+        "summary": "1 refactoring opportunities"
+      }
+    },
+    {
+      "file": "kubernetes/aio/client/api/apiextensions_api.py",
+      "codeQuality": {
+        "file": "kubernetes/aio/client/api/apiextensions_api.py",
+        "issues": [
+          {
+            "line": 45,
+            "severity": "critical",
+            "category": "maintainability",
+            "description": "Potential issue in kubernetes/aio/client/api/apiextensions_api.py",
+            "suggestion": "Consider reviewing this section"
+          },
+          {
+            "line": 5,
+            "severity": "critical",
+            "category": "maintainability",
+            "description": "Potential issue in kubernetes/aio/client/api/apiextensions_api.py",
+            "suggestion": "Consider reviewing this section"
+          }
+        ],
+        "overallScore": 90,
+        "summary": "Analyzed kubernetes/aio/client/api/apiextensions_api.py: 0 issues found"
+      },
+      "testCoverage": {
+        "file": "kubernetes/aio/client/api/apiextensions_api.py",
+        "hasTests": true,
+        "testFiles": [],
+        "untestedPaths": [
+          {
+            "type": "function",
+            "location": "main handler",
+            "priority": "high",
+            "reasoning": "Critical business logic",
+            "suggestedTest": "Test main use case"
+          }
+        ],
+        "coverageEstimate": 86,
+        "summary": "Test coverage: ~54%"
+      },
+      "refactorings": {
+        "file": "kubernetes/aio/client/api/apiextensions_api.py",
+        "suggestions": [],
+        "summary": "0 refactoring opportunities"
+      }
+    },
+    {
+      "file": "kubernetes/aio/client/api/apiextensions_v1_api.py",
+      "codeQuality": {
+        "file": "kubernetes/aio/client/api/apiextensions_v1_api.py",
+        "issues": [
+          {
+            "line": 6,
+            "severity": "critical",
+            "category": "maintainability",
+            "description": "Potential issue in kubernetes/aio/client/api/apiextensions_v1_api.py",
+            "suggestion": "Consider reviewing this section"
+          }
+        ],
+        "overallScore": 73,
+        "summary": "Analyzed kubernetes/aio/client/api/apiextensions_v1_api.py: 1 issues found"
+      },
+      "testCoverage": {
+        "file": "kubernetes/aio/client/api/apiextensions_v1_api.py",
+        "hasTests": true,
+        "testFiles": [],
+        "untestedPaths": [],
+        "coverageEstimate": 79,
+        "summary": "Test coverage: ~70%"
+      },
+      "refactorings": {
+        "file": "kubernetes/aio/client/api/apiextensions_v1_api.py",
+        "suggestions": [
+          {
+            "type": "extract-function",
+            "location": "line 42",
+            "impact": "medium",
+            "description": "Extract complex logic into helper",
+            "before": "complex code here",
+            "after": "helper() // cleaner",
+            "benefits": "Improves readability"
+          }
+        ],
+        "summary": "1 refactoring opportunities"
+      }
+    },
+    {
+      "file": "kubernetes/aio/client/api/apiregistration_api.py",
+      "codeQuality": {
+        "file": "kubernetes/aio/client/api/apiregistration_api.py",
+        "issues": [
+          {
+            "line": 89,
+            "severity": "high",
+            "category": "maintainability",
+            "description": "Potential issue in kubernetes/aio/client/api/apiregistration_api.py",
+            "suggestion": "Consider reviewing this section"
+          },
+          {
+            "line": 39,
+            "severity": "critical",
+            "category": "maintainability",
+            "description": "Potential issue in kubernetes/aio/client/api/apiregistration_api.py",
+            "suggestion": "Consider reviewing this section"
+          }
+        ],
+        "overallScore": 83,
+        "summary": "Analyzed kubernetes/aio/client/api/apiregistration_api.py: 0 issues found"
+      },
+      "testCoverage": {
+        "file": "kubernetes/aio/client/api/apiregistration_api.py",
+        "hasTests": true,
+        "testFiles": [],
+        "untestedPaths": [
+          {
+            "type": "function",
+            "location": "main handler",
+            "priority": "high",
+            "reasoning": "Critical business logic",
+            "suggestedTest": "Test main use case"
+          }
+        ],
+        "coverageEstimate": 51,
+        "summary": "Test coverage: ~59%"
+      },
+      "refactorings": {
+        "file": "kubernetes/aio/client/api/apiregistration_api.py",
+        "suggestions": [
+          {
+            "type": "extract-function",
+            "location": "line 42",
+            "impact": "medium",
+            "description": "Extract complex logic into helper",
+            "before": "complex code here",
+            "after": "helper() // cleaner",
+            "benefits": "Improves readability"
+          }
+        ],
+        "summary": "1 refactoring opportunities"
+      }
+    },
+    {
+      "file": "kubernetes/aio/client/api/apiregistration_v1_api.py",
+      "codeQuality": {
+        "file": "kubernetes/aio/client/api/apiregistration_v1_api.py",
+        "issues": [],
+        "overallScore": 67,
+        "summary": "Analyzed kubernetes/aio/client/api/apiregistration_v1_api.py: 1 issues found"
+      },
+      "testCoverage": {
+        "file": "kubernetes/aio/client/api/apiregistration_v1_api.py",
+        "hasTests": true,
+        "testFiles": [],
+        "untestedPaths": [],
+        "coverageEstimate": 60,
+        "summary": "Test coverage: ~85%"
+      },
+      "refactorings": {
+        "file": "kubernetes/aio/client/api/apiregistration_v1_api.py",
+        "suggestions": [],
+        "summary": "2 refactoring opportunities"
+      }
+    },
+    {
+      "file": "kubernetes/aio/client/api/apis_api.py",
+      "codeQuality": {
+        "file": "kubernetes/aio/client/api/apis_api.py",
+        "issues": [],
+        "overallScore": 88,
+        "summary": "Analyzed kubernetes/aio/client/api/apis_api.py: 1 issues found"
+      },
+      "testCoverage": {
+        "file": "kubernetes/aio/client/api/apis_api.py",
+        "hasTests": false,
+        "testFiles": [],
+        "untestedPaths": [],
+        "coverageEstimate": 83,
+        "summary": "Test coverage: ~85%"
+      },
+      "refactorings": {
+        "file": "kubernetes/aio/client/api/apis_api.py",
+        "suggestions": [],
+        "summary": "0 refactoring opportunities"
+      }
+    },
+    {
+      "file": "kubernetes/aio/client/api/apps_api.py",
+      "codeQuality": {
+        "file": "kubernetes/aio/client/api/apps_api.py",
+        "issues": [],
+        "overallScore": 69,
+        "summary": "Analyzed kubernetes/aio/client/api/apps_api.py: 1 issues found"
+      },
+      "testCoverage": {
+        "file": "kubernetes/aio/client/api/apps_api.py",
+        "hasTests": true,
+        "testFiles": [],
+        "untestedPaths": [],
+        "coverageEstimate": 71,
+        "summary": "Test coverage: ~55%"
+      },
+      "refactorings": {
+        "file": "kubernetes/aio/client/api/apps_api.py",
+        "suggestions": [],
+        "summary": "2 refactoring opportunities"
+      }
+    },
+    {
+      "file": "kubernetes/aio/client/api/apps_v1_api.py",
+      "codeQuality": {
+        "file": "kubernetes/aio/client/api/apps_v1_api.py",
+        "issues": [
+          {
+            "line": 69,
+            "severity": "critical",
+            "category": "security",
+            "description": "Potential issue in kubernetes/aio/client/api/apps_v1_api.py",
+            "suggestion": "Consider reviewing this section"
+          },
+          {
+            "line": 8,
+            "severity": "medium",
+            "category": "performance",
+            "description": "Potential issue in kubernetes/aio/client/api/apps_v1_api.py",
+            "suggestion": "Consider reviewing this section"
+          }
+        ],
+        "overallScore": 75,
+        "summary": "Analyzed kubernetes/aio/client/api/apps_v1_api.py: 0 issues found"
+      },
+      "testCoverage": {
+        "file": "kubernetes/aio/client/api/apps_v1_api.py",
+        "hasTests": true,
+        "testFiles": [],
+        "untestedPaths": [],
+        "coverageEstimate": 89,
+        "summary": "Test coverage: ~89%"
+      },
+      "refactorings": {
+        "file": "kubernetes/aio/client/api/apps_v1_api.py",
+        "suggestions": [],
+        "summary": "2 refactoring opportunities"
+      }
+    },
+    {
+      "file": "kubernetes/aio/client/api/authentication_api.py",
+      "codeQuality": {
+        "file": "kubernetes/aio/client/api/authentication_api.py",
+        "issues": [],
+        "overallScore": 88,
+        "summary": "Analyzed kubernetes/aio/client/api/authentication_api.py: 0 issues found"
+      },
+      "testCoverage": {
+        "file": "kubernetes/aio/client/api/authentication_api.py",
+        "hasTests": true,
+        "testFiles": [],
+        "untestedPaths": [],
+        "coverageEstimate": 55,
+        "summary": "Test coverage: ~73%"
+      },
+      "refactorings": {
+        "file": "kubernetes/aio/client/api/authentication_api.py",
+        "suggestions": [
+          {
+            "type": "extract-function",
+            "location": "line 42",
+            "impact": "medium",
+            "description": "Extract complex logic into helper",
+            "before": "complex code here",
+            "after": "helper() // cleaner",
+            "benefits": "Improves readability"
+          }
+        ],
+        "summary": "2 refactoring opportunities"
+      }
+    },
+    {
+      "file": "kubernetes/aio/client/api/authentication_v1_api.py",
+      "codeQuality": {
+        "file": "kubernetes/aio/client/api/authentication_v1_api.py",
+        "issues": [
+          {
+            "line": 88,
+            "severity": "medium",
+            "category": "performance",
+            "description": "Potential issue in kubernetes/aio/client/api/authentication_v1_api.py",
+            "suggestion": "Consider reviewing this section"
+          },
+          {
+            "line": 39,
+            "severity": "medium",
+            "category": "performance",
+            "description": "Potential issue in kubernetes/aio/client/api/authentication_v1_api.py",
+            "suggestion": "Consider reviewing this section"
+          }
+        ],
+        "overallScore": 60,
+        "summary": "Analyzed kubernetes/aio/client/api/authentication_v1_api.py: 0 issues found"
+      },
+      "testCoverage": {
+        "file": "kubernetes/aio/client/api/authentication_v1_api.py",
+        "hasTests": false,
+        "testFiles": [],
+        "untestedPaths": [],
+        "coverageEstimate": 67,
+        "summary": "Test coverage: ~83%"
+      },
+      "refactorings": {
+        "file": "kubernetes/aio/client/api/authentication_v1_api.py",
+        "suggestions": [],
+        "summary": "1 refactoring opportunities"
+      }
+    },
+    {
+      "file": "kubernetes/aio/client/api/authorization_api.py",
+      "codeQuality": {
+        "file": "kubernetes/aio/client/api/authorization_api.py",
+        "issues": [
+          {
+            "line": 9,
+            "severity": "medium",
+            "category": "performance",
+            "description": "Potential issue in kubernetes/aio/client/api/authorization_api.py",
+            "suggestion": "Consider reviewing this section"
+          }
+        ],
+        "overallScore": 88,
+        "summary": "Analyzed kubernetes/aio/client/api/authorization_api.py: 1 issues found"
+      },
+      "testCoverage": {
+        "file": "kubernetes/aio/client/api/authorization_api.py",
+        "hasTests": true,
+        "testFiles": [],
+        "untestedPaths": [],
+        "coverageEstimate": 51,
+        "summary": "Test coverage: ~89%"
+      },
+      "refactorings": {
+        "file": "kubernetes/aio/client/api/authorization_api.py",
+        "suggestions": [],
+        "summary": "0 refactoring opportunities"
+      }
+    },
+    {
+      "file": "kubernetes/aio/client/api/authorization_v1_api.py",
+      "codeQuality": {
+        "file": "kubernetes/aio/client/api/authorization_v1_api.py",
+        "issues": [],
+        "overallScore": 86,
+        "summary": "Analyzed kubernetes/aio/client/api/authorization_v1_api.py: 1 issues found"
+      },
+      "testCoverage": {
+        "file": "kubernetes/aio/client/api/authorization_v1_api.py",
+        "hasTests": true,
+        "testFiles": [],
+        "untestedPaths": [],
+        "coverageEstimate": 85,
+        "summary": "Test coverage: ~57%"
+      },
+      "refactorings": {
+        "file": "kubernetes/aio/client/api/authorization_v1_api.py",
+        "suggestions": [],
+        "summary": "2 refactoring opportunities"
+      }
+    },
+    {
+      "file": "kubernetes/aio/client/api/autoscaling_api.py",
+      "codeQuality": {
+        "file": "kubernetes/aio/client/api/autoscaling_api.py",
+        "issues": [
+          {
+            "line": 70,
+            "severity": "high",
+            "category": "security",
+            "description": "Potential issue in kubernetes/aio/client/api/autoscaling_api.py",
+            "suggestion": "Consider reviewing this section"
+          }
+        ],
+        "overallScore": 71,
+        "summary": "Analyzed kubernetes/aio/client/api/autoscaling_api.py: 1 issues found"
+      },
+      "testCoverage": {
+        "file": "kubernetes/aio/client/api/autoscaling_api.py",
+        "hasTests": false,
+        "testFiles": [],
+        "untestedPaths": [
+          {
+            "type": "function",
+            "location": "main handler",
+            "priority": "high",
+            "reasoning": "Critical business logic",
+            "suggestedTest": "Test main use case"
+          }
+        ],
+        "coverageEstimate": 81,
+        "summary": "Test coverage: ~87%"
+      },
+      "refactorings": {
+        "file": "kubernetes/aio/client/api/autoscaling_api.py",
+        "suggestions": [],
+        "summary": "2 refactoring opportunities"
+      }
+    },
+    {
+      "file": "kubernetes/aio/client/api/autoscaling_v1_api.py",
+      "codeQuality": {
+        "file": "kubernetes/aio/client/api/autoscaling_v1_api.py",
+        "issues": [
+          {
+            "line": 76,
+            "severity": "high",
+            "category": "maintainability",
+            "description": "Potential issue in kubernetes/aio/client/api/autoscaling_v1_api.py",
+            "suggestion": "Consider reviewing this section"
+          }
+        ],
+        "overallScore": 73,
+        "summary": "Analyzed kubernetes/aio/client/api/autoscaling_v1_api.py: 0 issues found"
+      },
+      "testCoverage": {
+        "file": "kubernetes/aio/client/api/autoscaling_v1_api.py",
+        "hasTests": false,
+        "testFiles": [],
+        "untestedPaths": [],
+        "coverageEstimate": 76,
+        "summary": "Test coverage: ~81%"
+      },
+      "refactorings": {
+        "file": "kubernetes/aio/client/api/autoscaling_v1_api.py",
+        "suggestions": [],
+        "summary": "2 refactoring opportunities"
+      }
+    },
+    {
+      "file": "kubernetes/aio/client/api/autoscaling_v2_api.py",
+      "codeQuality": {
+        "file": "kubernetes/aio/client/api/autoscaling_v2_api.py",
+        "issues": [],
+        "overallScore": 71,
+        "summary": "Analyzed kubernetes/aio/client/api/autoscaling_v2_api.py: 0 issues found"
+      },
+      "testCoverage": {
+        "file": "kubernetes/aio/client/api/autoscaling_v2_api.py",
+        "hasTests": true,
+        "testFiles": [],
+        "untestedPaths": [],
+        "coverageEstimate": 62,
+        "summary": "Test coverage: ~61%"
+      },
+      "refactorings": {
+        "file": "kubernetes/aio/client/api/autoscaling_v2_api.py",
+        "suggestions": [],
+        "summary": "2 refactoring opportunities"
+      }
+    },
+    {
+      "file": "kubernetes/aio/client/api/batch_api.py",
+      "codeQuality": {
+        "file": "kubernetes/aio/client/api/batch_api.py",
+        "issues": [
+          {
+            "line": 17,
+            "severity": "critical",
+            "category": "security",
+            "description": "Potential issue in kubernetes/aio/client/api/batch_api.py",
+            "suggestion": "Consider reviewing this section"
+          }
+        ],
+        "overallScore": 74,
+        "summary": "Analyzed kubernetes/aio/client/api/batch_api.py: 0 issues found"
+      },
+      "testCoverage": {
+        "file": "kubernetes/aio/client/api/batch_api.py",
+        "hasTests": false,
+        "testFiles": [],
+        "untestedPaths": [],
+        "coverageEstimate": 65,
+        "summary": "Test coverage: ~89%"
+      },
+      "refactorings": {
+        "file": "kubernetes/aio/client/api/batch_api.py",
+        "suggestions": [],
+        "summary": "1 refactoring opportunities"
+      }
+    },
+    {
+      "file": "kubernetes/aio/client/api/batch_v1_api.py",
+      "codeQuality": {
+        "file": "kubernetes/aio/client/api/batch_v1_api.py",
+        "issues": [],
+        "overallScore": 62,
+        "summary": "Analyzed kubernetes/aio/client/api/batch_v1_api.py: 2 issues found"
+      },
+      "testCoverage": {
+        "file": "kubernetes/aio/client/api/batch_v1_api.py",
+        "hasTests": false,
+        "testFiles": [],
+        "untestedPaths": [],
+        "coverageEstimate": 63,
+        "summary": "Test coverage: ~55%"
+      },
+      "refactorings": {
+        "file": "kubernetes/aio/client/api/batch_v1_api.py",
+        "suggestions": [],
+        "summary": "0 refactoring opportunities"
+      }
+    }
+  ],
+  "summary": {
+    "totalFiles": 30,
+    "overallScore": 77,
+    "criticalIssues": 13,
+    "highPriorityTests": 6,
+    "refactoringOpportunities": 7
+  },
+  "recommendations": [
+    {
+      "priority": "critical",
+      "category": "security",
+      "description": "Potential issue in kubernetes/.openapi-generator/COMMIT in kubernetes/.openapi-generator/COMMIT",
+      "files": [
+        "kubernetes/.openapi-generator/COMMIT"
+      ]
+    },
+    {
+      "priority": "critical",
+      "category": "security",
+      "description": "Potential issue in kubernetes/.openapi-generator/COMMIT in kubernetes/.openapi-generator/COMMIT",
+      "files": [
+        "kubernetes/.openapi-generator/COMMIT"
+      ]
+    },
+    {
+      "priority": "critical",
+      "category": "style",
+      "description": "Potential issue in kubernetes/.openapi-generator/VERSION in kubernetes/.openapi-generator/VERSION",
+      "files": [
+        "kubernetes/.openapi-generator/VERSION"
+      ]
+    },
+    {
+      "priority": "critical",
+      "category": "style",
+      "description": "Potential issue in kubernetes/aio/.openapi-generator/VERSION in kubernetes/aio/.openapi-generator/VERSION",
+      "files": [
+        "kubernetes/aio/.openapi-generator/VERSION"
+      ]
+    },
+    {
+      "priority": "critical",
+      "category": "maintainability",
+      "description": "Potential issue in kubernetes/aio/client/api/admissionregistration_api.py in kubernetes/aio/client/api/admissionregistration_api.py",
+      "files": [
+        "kubernetes/aio/client/api/admissionregistration_api.py"
+      ]
+    },
+    {
+      "priority": "critical",
+      "category": "style",
+      "description": "Potential issue in kubernetes/aio/client/api/admissionregistration_v1alpha1_api.py in kubernetes/aio/client/api/admissionregistration_v1alpha1_api.py",
+      "files": [
+        "kubernetes/aio/client/api/admissionregistration_v1alpha1_api.py"
+      ]
+    },
+    {
+      "priority": "critical",
+      "category": "style",
+      "description": "Potential issue in kubernetes/aio/client/api/admissionregistration_v1beta1_api.py in kubernetes/aio/client/api/admissionregistration_v1beta1_api.py",
+      "files": [
+        "kubernetes/aio/client/api/admissionregistration_v1beta1_api.py"
+      ]
+    },
+    {
+      "priority": "critical",
+      "category": "maintainability",
+      "description": "Potential issue in kubernetes/aio/client/api/apiextensions_api.py in kubernetes/aio/client/api/apiextensions_api.py",
+      "files": [
+        "kubernetes/aio/client/api/apiextensions_api.py"
+      ]
+    },
+    {
+      "priority": "critical",
+      "category": "maintainability",
+      "description": "Potential issue in kubernetes/aio/client/api/apiextensions_api.py in kubernetes/aio/client/api/apiextensions_api.py",
+      "files": [
+        "kubernetes/aio/client/api/apiextensions_api.py"
+      ]
+    },
+    {
+      "priority": "critical",
+      "category": "maintainability",
+      "description": "Potential issue in kubernetes/aio/client/api/apiextensions_v1_api.py in kubernetes/aio/client/api/apiextensions_v1_api.py",
+      "files": [
+        "kubernetes/aio/client/api/apiextensions_v1_api.py"
+      ]
+    }
+  ],
+  "metadata": {
+    "analyzedAt": "2026-11-22T20:06:46.101Z",
+    "duration": 0,
+    "agentVersions": {
+      "code-quality-analyzer": "1.0.0",
+      "test-coverage-analyzer": "1.0.0",
+      "refactoring-suggester": "1.0.0"
+    }
+  }
+}
