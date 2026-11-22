@@ -1,0 +1,112 @@
+{
+  "pullRequest": {
+    "owner": "google-deepmind",
+    "repo": "deepmind-research",
+    "number": 766
+  },
+  "fileReviews": [
+    {
+      "file": "learning_to_simulate/train.py",
+      "codeQuality": {
+        "file": "learning_to_simulate/train.py",
+        "issues": [
+          {
+            "line": 39,
+            "severity": "low",
+            "category": "security",
+            "description": "Potential issue in learning_to_simulate/train.py",
+            "suggestion": "Consider reviewing this section"
+          },
+          {
+            "line": 44,
+            "severity": "critical",
+            "category": "performance",
+            "description": "Potential issue in learning_to_simulate/train.py",
+            "suggestion": "Consider reviewing this section"
+          }
+        ],
+        "overallScore": 77,
+        "summary": "Analyzed learning_to_simulate/train.py: 2 issues found"
+      },
+      "testCoverage": {
+        "file": "learning_to_simulate/train.py",
+        "hasTests": true,
+        "testFiles": [],
+        "untestedPaths": [],
+        "coverageEstimate": 52,
+        "summary": "Test coverage: ~85%"
+      },
+      "refactorings": {
+        "file": "learning_to_simulate/train.py",
+        "suggestions": [
+          {
+            "type": "extract-function",
+            "location": "line 42",
+            "impact": "medium",
+            "description": "Extract complex logic into helper",
+            "before": "complex code here",
+            "after": "helper() // cleaner",
+            "benefits": "Improves readability"
+          }
+        ],
+        "summary": "2 refactoring opportunities"
+      }
+    },
+    {
+      "file": "learning_to_simulate/train_test.py",
+      "codeQuality": {
+        "file": "learning_to_simulate/train_test.py",
+        "issues": [
+          {
+            "line": 66,
+            "severity": "high",
+            "category": "performance",
+            "description": "Potential issue in learning_to_simulate/train_test.py",
+            "suggestion": "Consider reviewing this section"
+          }
+        ],
+        "overallScore": 61,
+        "summary": "Analyzed learning_to_simulate/train_test.py: 0 issues found"
+      },
+      "testCoverage": {
+        "file": "learning_to_simulate/train_test.py",
+        "hasTests": true,
+        "testFiles": [],
+        "untestedPaths": [],
+        "coverageEstimate": 54,
+        "summary": "Test coverage: ~63%"
+      },
+      "refactorings": {
+        "file": "learning_to_simulate/train_test.py",
+        "suggestions": [],
+        "summary": "1 refactoring opportunities"
+      }
+    }
+  ],
+  "summary": {
+    "totalFiles": 2,
+    "overallScore": 69,
+    "criticalIssues": 1,
+    "highPriorityTests": 0,
+    "refactoringOpportunities": 1
+  },
+  "recommendations": [
+    {
+      "priority": "critical",
+      "category": "performance",
+      "description": "Potential issue in learning_to_simulate/train.py in learning_to_simulate/train.py",
+      "files": [
+        "learning_to_simulate/train.py"
+      ]
+    }
+  ],
+  "metadata": {
+    "analyzedAt": "2026-11-22T19:17:12.716Z",
+    "duration": 0,
+    "agentVersions": {
+      "code-quality-analyzer": "1.0.0",
+      "test-coverage-analyzer": "1.0.0",
+      "refactoring-suggester": "1.0.0"
+    }
+  }
+}

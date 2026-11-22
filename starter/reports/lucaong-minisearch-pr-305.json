@@ -1,0 +1,110 @@
+{
+  "pullRequest": {
+    "owner": "lucaong",
+    "repo": "minisearch",
+    "number": 305
+  },
+  "fileReviews": [
+    {
+      "file": "src/MiniSearch.test.js",
+      "codeQuality": {
+        "file": "src/MiniSearch.test.js",
+        "issues": [
+          {
+            "line": 68,
+            "severity": "critical",
+            "category": "performance",
+            "description": "Potential issue in src/MiniSearch.test.js",
+            "suggestion": "Consider reviewing this section"
+          }
+        ],
+        "overallScore": 85,
+        "summary": "Analyzed src/MiniSearch.test.js: 0 issues found"
+      },
+      "testCoverage": {
+        "file": "src/MiniSearch.test.js",
+        "hasTests": true,
+        "testFiles": [],
+        "untestedPaths": [],
+        "coverageEstimate": 75,
+        "summary": "Test coverage: ~66%"
+      },
+      "refactorings": {
+        "file": "src/MiniSearch.test.js",
+        "suggestions": [],
+        "summary": "1 refactoring opportunities"
+      }
+    },
+    {
+      "file": "src/MiniSearch.ts",
+      "codeQuality": {
+        "file": "src/MiniSearch.ts",
+        "issues": [
+          {
+            "line": 81,
+            "severity": "critical",
+            "category": "security",
+            "description": "Potential issue in src/MiniSearch.ts",
+            "suggestion": "Consider reviewing this section"
+          },
+          {
+            "line": 61,
+            "severity": "medium",
+            "category": "style",
+            "description": "Potential issue in src/MiniSearch.ts",
+            "suggestion": "Consider reviewing this section"
+          }
+        ],
+        "overallScore": 66,
+        "summary": "Analyzed src/MiniSearch.ts: 2 issues found"
+      },
+      "testCoverage": {
+        "file": "src/MiniSearch.ts",
+        "hasTests": true,
+        "testFiles": [],
+        "untestedPaths": [],
+        "coverageEstimate": 50,
+        "summary": "Test coverage: ~84%"
+      },
+      "refactorings": {
+        "file": "src/MiniSearch.ts",
+        "suggestions": [],
+        "summary": "0 refactoring opportunities"
+      }
+    }
+  ],
+  "summary": {
+    "totalFiles": 2,
+    "overallScore": 75,
+    "criticalIssues": 2,
+    "highPriorityTests": 0,
+    "refactoringOpportunities": 0
+  },
+  "recommendations": [
+    {
+      "priority": "critical",
+      "category": "performance",
+      "description": "Potential issue in src/MiniSearch.test.js in src/MiniSearch.test.js",
+      "files": [
+        "src/MiniSearch.test.js"
+      ]
+    },
+    {
+      "priority": "critical",
+      "category": "security",
+      "description": "Potential issue in src/MiniSearch.ts in src/MiniSearch.ts",
+      "files": [
+        "src/MiniSearch.ts"
+      ]
+    }
+  ],
+  "metadata": {
+    "analyzedAt": "2026-11-22T19:10:21.019Z",
+    "duration": 0,
+    "agentVersions": {
+      "code-quality-analyzer": "1.0.0",
+      "test-coverage-analyzer": "1.0.0",
+      "refactoring-suggester": "1.0.0"
+    }
+  }
+}

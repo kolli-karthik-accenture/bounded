@@ -1,0 +1,82 @@
+{
+  "pullRequest": {
+    "owner": "octocat",
+    "repo": "Hello-World",
+    "number": 1
+  },
+  "fileReviews": [
+    {
+      "file": "README",
+      "codeQuality": {
+        "file": "README",
+        "issues": [
+          {
+            "line": 72,
+            "severity": "medium",
+            "category": "maintainability",
+            "description": "Potential issue in README",
+            "suggestion": "Consider reviewing this section"
+          },
+          {
+            "line": 64,
+            "severity": "critical",
+            "category": "maintainability",
+            "description": "Potential issue in README",
+            "suggestion": "Consider reviewing this section"
+          }
+        ],
+        "overallScore": 76,
+        "summary": "Analyzed README: 2 issues found"
+      },
+      "testCoverage": {
+        "file": "README",
+        "hasTests": false,
+        "testFiles": [],
+        "untestedPaths": [],
+        "coverageEstimate": 73,
+        "summary": "Test coverage: ~63%"
+      },
+      "refactorings": {
+        "file": "README",
+        "suggestions": [
+          {
+            "type": "extract-function",
+            "location": "line 42",
+            "impact": "medium",
+            "description": "Extract complex logic into helper",
+            "before": "complex code here",
+            "after": "helper() // cleaner",
+            "benefits": "Improves readability"
+          }
+        ],
+        "summary": "2 refactoring opportunities"
+      }
+    }
+  ],
+  "summary": {
+    "totalFiles": 1,
+    "overallScore": 76,
+    "criticalIssues": 1,
+    "highPriorityTests": 0,
+    "refactoringOpportunities": 1
+  },
+  "recommendations": [
+    {
+      "priority": "critical",
+      "category": "maintainability",
+      "description": "Potential issue in README in README",
+      "files": [
+        "README"
+      ]
+    }
+  ],
+  "metadata": {
+    "analyzedAt": "2026-11-22T19:11:04.450Z",
+    "duration": 0,
+    "agentVersions": {
+      "code-quality-analyzer": "1.0.0",
+      "test-coverage-analyzer": "1.0.0",
+      "refactoring-suggester": "1.0.0"
+    }
+  }
+}
